@@ -1,0 +1,151 @@
+﻿body
+{ 
+    padding: 10px;
+    margin: 10px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: #fdfbfc;
+    border-bottom: 1px solid silver;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+main {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    border-top: 1px solid silver;
+}
+.numberButton {
+    padding: 24px;
+    font-size: 1.5em;
+    font-family: monospace;
+    border-left: 2px solid silver;
+    background: radial-gradient(#e9dee9, #f0ebf0, #ebe2eb);
+    border-radius: 10%;
+    box-shadow: -1px 1px 3px darkslateblue;
+}
+.wrapper {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-color: thistle;
+    padding: 10px;
+    border: 4px solid silver;
+    box-shadow: 0px 0px 10px gray;
+    border: 4px solid #817585;
+    box-shadow: -1px 1px 10px #9a82b0;
+}
+.screen {
+    grid-column: 1/5;
+    grid-row: 1;
+    border: 1px solid gray;
+    height: 2ch;
+    background-color: white;
+    box-shadow: -1px 1px 3px grey inset;
+    font-size: 2em;
+    width: 16ch;
+    font-family: monospace;
+    word-wrap: break-word;
+}
+#screen {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.One {
+    grid-column: 1;
+    grid-row: 2;
+}
+.Two {
+    grid-column: 2;
+    grid-row: 2;
+}
+.Three {
+    grid-column: 3;
+    grid-row: 2;
+}
+.Four {
+    grid-column: 1;
+    grid-row: 3;
+}
+.Five {
+    grid-column: 2;
+    grid-row: 3;
+}
+.Six {
+    grid-column: 3;
+    grid-row: 3;
+}
+.Seven {
+    grid-column: 1;
+    grid-row: 4;
+}
+.Eight {
+    grid-column: 2;
+    grid-row: 4;
+}
+.Nine {
+    grid-column: 3;
+    grid-row: 4;
+}
+.fcurl{
+    grid-column: 1;
+    grid-row: 5;
+}
+.Zero {
+    grid-column: 2;
+    grid-row: 5;
+}
+.bcurl{
+    grid-column: 3;
+    grid-row: 5;
+}
+.BACK {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#back_btn {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ENTER {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.ADD {
+    grid-column: 4;
+    grid-row: 2;
+}
+.SUBTRACT {
+    grid-column: 4;
+    grid-row: 3;
+}
+.MULTIPLY {
+    grid-column: 4;
+    grid-row: 4;
+}
+.DIVIDE {
+    grid-column: 4;
+    grid-row: 5;
+}
+.CLEAR {
+    grid-column: span 2;
+    grid-row: 6;
+}
